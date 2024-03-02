@@ -9,8 +9,8 @@ function App() {
       <PageTitle title={"My friends"} />
       Articl 1
       <Rating value={3} />
-      <Accordion title={"Меню"} />
-      <Accordion title={"Подменю"} />
+      <Accordion title={"Меню"} collapsed={true} />
+      <Accordion title={"Подменю"} collapsed={false} />
       Articl 2
       <Rating value={0} />
       <Rating value={1} />
